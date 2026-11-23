@@ -4,6 +4,13 @@ Ambilight direkt auf der **VU+ Zero (OpenPLi 9.2 / BCM73625)**: 314 adressierbar
 
 ## Projektstand
 
+## Standalone V2R2 · CPU/RAM Live (Quellcode-Freeze vom 23.11.2026)
+
+Die **eigenständige Version ohne EnigmaLight-Installation** liegt im Branch [`freeze/standalone-v2r2-cpu-ram-live`](https://github.com/ZachWay9bot/En-bilight/tree/freeze/standalone-v2r2-cpu-ram-live); die Weiterentwicklung läuft auf [`develop`](https://github.com/ZachWay9bot/En-bilight/tree/develop/src/standalone/v2r2). Enthalten sind Dashboard mit CPU-/RAM-Liveanzeige, LED-Konfigurationsdialog (1–480 LEDs), Grabber, WLED/DDP-Ausgabe, Installationsskripte und Offline-Tests.
+
+**Prüfstatus:** Quellcode und Offline-Tests bestanden; tatsächliche Standalone-V2R2-FPS auf VU+-Hardware noch nicht erneut validiert. Das originale Freeze-ZIP ist byteidentisch archiviert: SHA256 `b37d1d44e393113ef778a24be4046bfd4ba020e2005b7ef868453f20d78414cb`. Die öffentlichen Windows-CMDs verwenden aus Datenschutzgründen eine Beispiel-IP. [Freeze-Dokumentation](https://github.com/ZachWay9bot/En-bilight/blob/freeze/standalone-v2r2-cpu-ram-live/docs/FREEZE_STANDALONE_V2R2.md).
+
+
 - **V1R8:** Eingefrorener, hardwaregetesteter 1-Punkt-Sampler: **24,38 FPS** mit DDP im 20-Sekunden-Test.
 - **V1R10R2:** Eingefrorener Dauerbetriebsstand mit Weboberfläche (Port 8095), Helligkeit, Delay, Smooth, Deadband und RGB-Kalibrierung.
 - **V1R10R3–R5:** Experimentelle Abtasttiefen, Anti-Bounce und erweiterte Farbregler; *nicht* als neue stabile Version freigegeben.
